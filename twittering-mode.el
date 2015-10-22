@@ -609,7 +609,7 @@ If nil, this is initialized with a list of valied entries extracted from
   :group 'twittering-mode)
 
 (defcustom twittering-connection-type-order
-  '(curl wget urllib-http native urllib-https)
+  '(wget urllib-http native urllib-https)
   "*A list of connection methods in the preferred order."
   :type 'list
   :group 'twittering-mode)
